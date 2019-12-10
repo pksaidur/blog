@@ -1,0 +1,81 @@
+.header{
+    width:100%;
+    min-width:100px;
+    height:132px ;
+    background-color: rgb(18, 61, 28);
+}
+.leftSide{
+    float: left;
+}
+.leftSide img{
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    padding: 0%;
+    float: left;
+    
+}
+.leftSide h1{
+color: white;
+width:280px;
+height:42px;
+float: left;
+margin:0px;
+padding-top: 26px;
+font-family: raleway bold;
+}
+.leftSide h5{
+    color: rgb(250, 248, 117);
+    width: 218px;
+    height: 0px;
+    margin: 76px 0px 0px 6px;
+    padding: 0px;
+    font-size: 16px;
+}
+.leftSide ul{
+    list-style-type: none;
+    margin: 32px 0px 0px 64px;
+}
+.leftSide li{
+    display: inline;
+    float: left;
+    margin-left: 14px;
+}
+.leftSide li a{
+    display: block;
+    color:#FFFFFFFF;
+    padding:2px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.leftSide li a:hover{
+    background-color: green;
+}
+
+.rightSide{
+    float: right;
+}
+.mediaIcon{
+    width: 150px;
+    margin:10px 50px 0px 0px;
+    background-color: teal;
+}
+.mediaIcon img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    float: right;
+    
+}
+.mediaIcon img:hover{
+    background-color: rgb(255, 255, 255);
+}
+.search{
+    width: 230px;
+    height: 20px;
+    margin-right:40px;
+    padding-top: 90px;
+}
+.search input[type="text"],.search input[type="button"]{
+
+}
